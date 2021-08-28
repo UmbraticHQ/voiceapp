@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="peer.js"></script>
+</head>
+<body>
+    <div id="adress"></div>
+    <div id="msg"></div>
+Test
+<button id="connect" onclick="connect()">connect</button> <input id="text" type="text">
+<script>
+
+var peer = new Peer();
+peer.on('open', function(id) {
+    document.getElementById("adress").innerHTML = 'My peer ID is: ' + id;
+});
+
+peer.on('connection', function(dataconnection) {
+    document.getElementById("msg").innerHTML = "Connected to:" + dataconnection;
+});
+
+
+function connect(){
+    adress = document.getElementById("text").value;
+    peer.connect(adress)
+    console.log("conecting to:" + adress)
+}
+
+</script>
+</body>
+</html>

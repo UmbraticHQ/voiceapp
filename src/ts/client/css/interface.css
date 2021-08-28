@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to top, #000 20%, #27273c 80%);
+}
+#btn-wrap {
+    font-size: 180%;
+    padding: 1%;
+    width: 100%;
+    background-color: #090C08;
+    display: block;
+}
+#btn-home {
+    display: inline-block;
+    padding-left: 1%;
+    color: #FFFCF2;
+}
+#btn-microphone {
+    display: inline-block;
+    padding-left: 1%;
+    color: #FFFCF2;
+}
+#btn-screenshare {
+    display: inline-block;
+    padding-left: 1%;
+    color: #FFFCF2;
+}
+#btn-changeview {
+    display: inline-block;
+    padding-left: 1%;
+    color: #FFFCF2;
+}
+#box {
+    background-color: #FFF;
+    padding: 4%;
+    border-radius: 12px;
+    margin-top: 10%;
+}
+
+/*
+#090C08 - "Rich Black FORGRA 39"
+#252422 - "Eerie Black" / #1D1E18
+#403D39 - "Black Olive"
+#FFFCF2 - "Floral White"
+#FFCB47 - "Sunglow"
+#37323E - "Black Coffee"
+#6D6A75 - "Dim Gray"
+*/
+
+

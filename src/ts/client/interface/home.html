@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <title>Voiceapp</title>
+        <link rel="stylesheet" href="../css/interface.css" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap-icons.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="topbar">
+            <div id="btn-wrap">
+                <!-- Home Button -->
+                <div id="btn-home"><i class="bi bi-house-door-fill"></i></div>
+
+                <!-- Microphone Button -->
+                <div id="btn-microphone"><i class="bi bi-mic-fill"></i></div>
+                
+                <!-- Screenshare Button -->
+                <div id="btn-screenshare"><i class="bi bi-tv-fill"></i></div>
+                
+                <!-- Change View Button -->
+                <!-- Switching between screenshare and chat !! Invisible before screenshare starts!! -->
+                <div id="btn-changeview"><i class="bi bi-back"></i></div>                
+            </div>
+        </div>
+        
+        <div class="d-md-flex justify-content-md-center align-items-md-center">
+            <div id="box">
+                <h1>Welcome</h1>
+                <p>Click to connect to socket server</p>
+                <button onclick="sendMessage()">Senden</button>
+                <input id="txt" type="text"></input>
+            </div>
+        </div>
+
+
+
+    </body>
+
+    <script src="../js/app.js" type="text/javascript"></script>
+    <script src="../js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+</html>
