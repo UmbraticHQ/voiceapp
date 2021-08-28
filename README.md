@@ -2,7 +2,6 @@
  An Open-Source Untraceable Voice Platform
 >Live Version:
 >https://app.constellate.de
-<br>
 
 ## Currently in Development
 Voiceapp is currently in development. Yet, the latest release of this project is fully functional and can be used without any major privacy-concerns.<br><br>
